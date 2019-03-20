@@ -1,0 +1,36 @@
+<html>
+  <head><h1><br>REGISTRATION</h1>
+    <title>Registrationform</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+
+    <form name = "myform" id="myform" action="http://localhost:8080/assign6/data.jsp" method="post">  
+      <p>Please fill in this form to create an account...</p>
+      <b> 
+      <br>First name<input type="text" name="fname"><br>
+      <br>Last name<b><input type="text" name="lname"><br>
+      <br>Phone number:<input type ="number" name="num" pattern = [0-9]{10}><br>
+      <br>Gender:<br>
+           <input type="radio" name="gender" value="male" checked> Male
+           <input type="radio" name="gender" value="female"> Female
+           <input type="radio" name="gender" value="other"> Other<br>
+      <br>Username<b><input type="text" >@gmail.com<br>
+      <br>Password<b><input type="password" ><br>
+      <br>Address<b><input type="textarea" rows="10" cols="30"><br>
+      <br>Branch<select><br>
+	<option value="Computer">Computer</option>
+	<option value="ENTC">ENTC</option>
+	<option value="MECH">MECH</option>
+	<option value="IT">IT</option>
+        </select><br>
+    <br><input type="Submit" value="Insert" name="Action">
+       <br><input type="Submit" value="Update" name="Action">
+          <br><input type="Submit" value="Delete" name="Action">
+             <br><input type="Submit" value="Select" name="Action">
+    <input type="reset" value="Cancel"><br>
+<p>Already have an account?<a href="Login.html">Login</a></p>
+ 
+</form> 
+</body>
+</html>

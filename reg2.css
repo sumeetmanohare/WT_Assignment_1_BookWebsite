@@ -1,0 +1,35 @@
+h1 {
+
+	color: white;
+	padding:5px;
+	background-color:black;
+	margin:auto;
+	text-align:center;
+	border-style:solid;
+	border-bottom: 5px solid red;
+	margin-top:5px;
+	margin-bottom:15px;
+	margin-right:100px;
+	margin-left:100px;	
+   }
+
+body{
+			background-image:url("contc.jpg");
+			background-repeat:no-repeat;
+			background-size:100%,80%;
+
+}
+form {	
+		border-style:solid;
+		font-size:20px;
+		margin-right:170px;
+		margin-left:170px;
+		margin-top:120px;
+		text-align:center;
+		color:black;
+		background-color:white;
+		border-bottom: 5px solid red;
+
+
+}
+
